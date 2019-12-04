@@ -1,0 +1,13 @@
+- Loader con Js
+- Hamburger-Nav con flex-box y Js
+- Galeria portafolio filtreable
+- Footer
+
+{A todo eso hay que agregarle un buen disenio e imagenes comprimidas, 
+iconos sin derechos de autor e ilustraciones sin derechos de autor, hay que elegir una paleta de colores agradable
+y un estilo que llame la atencion, tenemos unos dias}
+
+/* Traten de usar flex box yo lo descubri hace poquito y la pagina que subi esta hecha en eso, porque no podemos 
+utilizar boostrap (Hay que atribuir derechos de author) al igual que con muchas imagenes, iconos e ilustraciones*/
+
+Tratemos de hacerlo a mano, yo estoy para ayudarlos.
