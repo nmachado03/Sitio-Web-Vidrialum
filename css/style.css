@@ -225,10 +225,47 @@ header .textos-header {
   background: #f2f2f2;
 }
 
+.portafolio p {
+  text-align: center;
+  margin-bottom: 45px;
+  font-size: 20px;
+}
+
 .galeria-port {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.btn-work {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-work li {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10px /*Espacios*/;
+  margin-bottom: 45px /*espacios contenido*/;
+  /*titulos 33px, margenes 60px*/
+  padding: 6px 12px;
+  border: 1px solid #27ae60;
+  list-style: none;
+  color: #414141;
+  cursor: pointer;
+}
+
+.btn-work li:hover {
+  color: #fff;
+  background: #27ae60;
+  transition: all 0.2s;
+}
+
+.btn-work .active {
+  color: #fff;
+  background: #27ae60;
 }
 
 .imagen-port {
@@ -400,8 +437,20 @@ footer {
   .sobre-nosotros .contenido-textos {
     width: 95%;
   }
-  /*Galería*/
+  /*Galeria*/
   .imagen-port {
     width: 95%;
   }
+}
+
+/*Footer*/
+
+.contenedor-footer {
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+
+.content-foo h1 {
+  font-size: 25px bold;
 }
