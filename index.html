@@ -60,58 +60,67 @@
         <section class="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Portafolio</h2>
+                <p>Estos son algunos de nuestros trabajos mas impirtantes</p>
+                <div class="btn-work">
+                    <ul>
+                        <li class="filter active" data-nombre="all">All</li>
+                        <li class="filter" data-nombre="aperturas">Aperturas</li>
+                        <li class="filter" data-nombre="coperativa">Coperativas</li>
+                        <li class="filter" data-nombre="otros">Otros</li>
+                    </ul>
+                </div>
                 <div class="galeria-port">
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all coperativa otros">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all aperturas">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all coperativa aperturas">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all coperativa">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all otros">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all otros">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all otros">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
                         </div>
                     </div>
-                    <div class="imagen-port">
-                        <img src="/img/imagen-galeria.jpg" alt="">
+                    <div class="imagen-port all otros">
+                        <img src="./img/imagen-galeria.jpg" alt="">
                         <div class="hover-galeria">
                             <img src="./img/icono-click.png" alt="">
                             <p>Nuestro trabajo</p>
@@ -165,10 +174,13 @@
 
 
         </div>
-        <h2 class="titulo-final">&copy; VIDRIALUM 2019</h2>
+        <h2 class="titulo-final"> &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script> VIDRIALUM</h2>
     </footer>
-    <script src="./js/main.js"></script>
-    <script src="./js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./js/filtro.js" charset="utf-8"></script>
 </body>
 
 </html>
