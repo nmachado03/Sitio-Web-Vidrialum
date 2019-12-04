@@ -355,3 +355,17 @@ footer {
         width: 95%;
     }
 }
+
+/*Footer*/
+
+.contenedor-footer{
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.content-foo h1{
+    font-size: 25px bold;
+}
+
+
