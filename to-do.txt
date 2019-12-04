@@ -1,5 +1,5 @@
 - Loader con Js
-- Hamburger-Nav con flex-box y Js
+- Hamburger-Nav con flex-box y Js (Ezequiel)
 - Galeria portafolio filtreable
 - Footer
 
